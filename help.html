@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/help.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-div">
+            <div class="logo-div">
+               <a href="index.html"><img src="Images/logo3.png" alt="Llogo"></a> 
+            </div>
+            <div class="nav-div">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="products"><a href="products.html">Products</a>
+                        <div id="dropdown-div">
+                            <a href="">Technology
+                                <!--select name="technology" id="technology">
+                                    <option value="0">Technology</option>
+                                    <option value="1">Smartphones</option>
+                                    <option value="2">TV</option>
+                                </select-->
+                            </a>
+                            <a href="">Cosmetics</a>
+                            <a href="">Auto</a>
+                        </div>
+                    </li>
+                    <li><a href="signUp.html">SignUp</a></li>
+                    <li><a href="LogIn.html">LogIn</a></li>
+                    <li><a href="help.html">Help & Contact</a></li>
+                    <button type="button" class="icon-button"><img src="Images/bell1.png" alt=""></button>
+                    <button type="button" class="icon-button"><img src="Images/addToCart.png.png" alt=""></button>
+                    
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main-div">
+        <div class="start-div">
+            <img src="Images/logo3.png" alt="">
+            <h1>Customer Serives</h1>
+        </div>
+
+        <div class="searchHelp-div">
+            <h1>How can we help you?</h1>
+            <input type="search" placeholder="Search .... help...">
+        </div>
+
+        <div class="backround-div">
+            <a href="">
+                <div class="helpArticles-div">
+                    <img src="Images/shop.png.png" alt="">
+                    <h6>Buying</h6>
+                </div>
+            </a>
+            <a href="">
+                <div class="helpArticles-div">
+                    <img src="Images/sell.png.png" alt="">
+                    <h6>Selling</h6>
+                </div>
+            </a>
+            <a href="">
+                <div class="helpArticles-div">
+                    <img src="Images/account.png.png" alt="">
+                    <h6>Account</h6>
+                </div>
+            </a>
+            <a href="">
+                <div class="helpArticles-div">
+                    <img src="Images/refund.png.png" alt="">
+                    <h6>Returns & Refunds</h6>
+                </div>
+            </a>
+            <a href="">
+                <div class="helpArticles-div">
+                    <img src="Images/shipping.png.png" alt="">
+                    <h6>Shipping & Tracking</h6>
+                </div>
+            </a>
+            <a href="">
+                <div class="helpArticles-div">
+                    <img src="Images/bill.png.png" alt="">
+                    <h6>Fees & Billing</h6>
+                </div>
+            </a>
+        </div>
+        <div class="contact-div">
+            <h2>Contact Us</h2>
+            <input type="email" placeholder="Email" class="contactInput-div" id="email" onclick="email()">
+            <textarea placeholder="Describtion" id="describtionInput" cols="30" rows="50" class="contactInput-div"></textarea>
+            <button onclick="validate()">Submit</button>
+        </div>
+    </div>
+    <script src="js/contact.js"></script>
+</body>
+</html>

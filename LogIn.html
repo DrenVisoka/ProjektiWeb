@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/LogIn.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-div" >
+            <div class="logo-div">
+               <a href="index.html"><img src="Images/logo3.png" alt="Llogo"></a> 
+            </div>
+            <div class="nav-div">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="products"><a href="products.html">Products</a>
+                        <div id="dropdown-div">
+                            <a href="">Smartphones
+                                <!--select name="technology" id="technology">
+                                    <option value="0">Technology</option>
+                                    <option value="1">Smartphones</option>
+                                    <option value="2">TV</option>
+                                </select-->
+                            </a>
+                            <a href="">TV</a>
+                            <a href="">Laptop</a>
+                            <a href="">Gaming</a>
+                            <a href="">Accessories</a>
+                        </div>
+                    </li>
+                    <li><a href="signUp.html">SignUp</a></li>
+                    <li><a href="LogIn.html">LogIn</a></li>
+                    <li><a href="help.html">Help & Contact</a></li>
+                    <button type="button" class="icon-button"><img src="Images/bell1.png" alt=""></button>
+                    <button type="button" class="icon-button"><img src="Images/addToCart.png.png" alt=""></button>
+                    
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="title-div">
+        <h2>Hello from our Team!</h2>
+    </div>
+    <div class="LogIn-div">
+        <div class="LogIn-form-div">
+            <input type="email" placeholder="Email" id="email" class="LogIn-input" onclick="email()">
+            <input type="password" placeholder="Password" id="pass" class="LogIn-input" onclick="pass()">
+            <button id="LogIn-button" onclick="validate()">LogIn</button>
+        </div>
+        <div class="hr-div"></div>
+        <div class="LogIn-account-div">
+            <a href="https://www.google.com/" id="a1" class="a-buttons"><button><img src="Images/google.png" alt="">Continue with Google</button></a>
+            <a href="https://www.facebook.com/" id="a2" class="a-buttons"><button><img src="Images/facebook5(1).png.jpg" alt="">Continue with Facebook</button></a>
+            <a href="https://secure4.store.apple.com/" id="a3" class="a-buttons"><button><img src="Images/apple.png" alt="">Continue with Apple</button></a>
+            <a href="signUp.html">Create an account</a>
+        </div>
+    </div>
+   <script src="js/login.js"></script>
+</body>
+</html>

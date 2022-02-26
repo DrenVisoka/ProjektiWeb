@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material%20Icons%3Anotifications%3A">
+    <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material%20Icons%3Ashopping_cart%3A">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Rubik:wght@300">
+    <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/61XKxrBtDVL.js?AUIClients/AmazonUIjQuery"-->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <!--style="background-image: url(Images/moon1.png); opacity: 0.8;"-->
+        <div class="header-div" >
+            <div class="logo-div">
+               <a href="index.html"><img src="Images/logo3.png" alt="Llogo"></a> 
+            </div>
+            <div class="nav-div">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="products"><a href="products.html">Products</a>
+                        <div id="dropdown-div">
+                            <a href="">Smartphones
+                                <!--select name="technology" id="technology">
+                                    <option value="0">Technology</option>
+                                    <option value="1">Smartphones</option>
+                                    <option value="2">TV</option>
+                                </select-->
+                            </a>
+                            <a href="">TV</a>
+                            <a href="">Laptop</a>
+                            <a href="">Gaming</a>
+                            <a href="">Accessories</a>
+                        </div>
+                    </li>
+                    <li><a href="signUp.html">SignUp</a></li>
+                    <li><a href="LogIn.html">LogIn</a></li>
+                    <li><a href="help.html">Help & Contact</a></li>
+                    <button type="button" class="icon-button"><img src="Images/bell1.png" alt=""></button>
+                    <button type="button" class="icon-button"><img src="Images/addToCart.png.png" alt=""></button>
+                    
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--div id="line-div1"></div-->
+        <div class="slideshow-div">
+            <div class="content-div">
+                <div class="image-div">
+                    <img name="image" id="slideshow" src="Images/slideshowimage2.png">
+                </div>
+                    
+                <div class="text-div">
+                    <a id="describtionText" href="">
+                        <span id="text">TOZO T6 True Wireless Earbuds Bluetooth Headphones Touch Control with Wireless
+                            Charging Case IPX8 Waterproof Stereo Earphones in-Ear Built-in Mic Headset
+                            Premium Deep Bass for Sport Black</span>
+                     </a>
+                </div>
+                <div class="buyButton-div">
+                    <button class="Buy" onclick="abc()">Add to Cart</button>
+                </div>
+                
+            </div>  
+            <button class="sliderButons" id="prev" onclick="prevButton()" >&#10094;</button>
+                <button class="sliderButons" id="next" onclick="nextButton()">&#10095;</button>  
+        </div>
+            </div>
+            <button class="sliderButons" id="prev" onclick="prevButton()" >&#10094;</button>
+                <button class="sliderButons" id="next" onclick="nextButton()">&#10095;</button>  
+        </div>
+           
+        <div class="searchBar-div">
+            <input type="search" placeholder="Search" id="search">
+            <button id="search-Button">Search</button> 
+        </div>
+        <div class="products-div">
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img1.png" alt=""></a>
+                <a href="" class="emri"><span>Phone Holder for Desk, WixGear Premium Adjustable Phone Stand for Desk,
+                             Home Office Accessories, Desktop Phone Holder Mount for iPhone and All Smartphones</span></a>
+                <h5>Cmimi:20$</h5>
+                <!--a href="" class="describtionText-link">
+                    <span>describtiaon....asdasdasd...asdaadad.asdasdas.asdasdasda.asdasddasdasdddddddddasdasdasdasdasasdasdasdasda
+                        asdadasdasdasdasd asdasdasd asd asd asd asd sad s da sda sad dsa sd asda sda asdasda sd asd as das d asdsd</span>
+                </a-->
+                <a href="" class="info">more info</a>
+            </div>
+
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img2.png" alt=""></a>
+                <a href="" class="emri"><span>Bose QuietComfort Noise Cancelling Earbuds - Bluetooth Wireless Earphones,
+                     Triple Black, the World's Most Effective Noise Cancelling Earbuds</span></a>
+                <h5>Cmimi:20$</h5>
+                <a href="" class="info">more info</a>
+            </div>
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img3.png" alt=""></a>
+                <a href="" class="emri"><span>Sony WH-1000XM4 Wireless Industry Leading Noise Canceling Overhead Headphones 
+                    with Mic for Phone-Call and Alexa Voice Control, Black</span></a>
+                <h5>Cmimi:20$</h5>
+                <a href="" class="info">more info</a>
+            </div>
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img4.png" alt=""></a>
+                <a href="" class="emri"><span>iPhone Charger, TAKAGI Lightning Cable 3PACK 6FT Nylon Braided USB Charging Cable High Speed Data Sync 
+                    Transfer Cord Compatible with iPhone 13/12/11 Pro Max/XS MAX/XR/XS/X/8/7/Plus/6S/6/SE/5S/iPad</span></a>
+                <h5>Cmimi:20$</h5>
+                <a href="" class="info">more info</a>
+            </div>
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img5.png" alt=""></a>
+                <a href="" class="emri"><span>Tile Mate (2022) 1-Pack, Black. Bluetooth Tracker, Keys Finder and Item Locator; Up to 250 ft.
+                     Range. Up to 3 Year Battery. Water-Resistant. Phone Finder. iOS and Android Compatible, 1 Pack, Black</span></a>
+                <h5>Cmimi:20$</h5>
+                <a href="" class="info">more info</a>
+            </div>
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img6.png" alt=""></a>
+                <a href="" class="emri"><span>Bose SoundLink Micro: Small Portable Bluetooth Speaker (Waterproof), Black</span></a>
+                <h5>Cmimi:20$</h5>
+                <a href="" class="info">more info</a>
+            </div>
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img7.png" alt=""></a>
+                <a href="" class="emri"><span>Short USB Adapter, Light & Convenient Plug in, USB to USB Cable, Quick Charging & Data Transfer simultaneously,
+                                     High Stability & High Speed Data Transfer, Easy to Carry Around</span></a>
+                <h5>Cmimi:20$</h5>
+                <a href="" class="info">more info</a>
+            </div>
+            <div class="product-div">
+                <a href="" class="product-img-link"><img src="Images/img8.png" alt=""></a>
+                <a href="" class="emri"><span>SAMSUNG Galaxy Buds Live True Wireless Earbuds US Version Active
+                             Noise Cancelling Wireless Charging Case Included, Mystic Black</span></a>
+                <h5>Cmimi:20$</h5>
+
+                <a href="" class="info">more info</a>
+            </div>
+            <div class="nav-Buttons">
+                <button class="button">&#10094;</button>
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">&#10095;</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="h1-footer-div">
+                <h2>Payment Methods</h2>
+            </div>
+            <div class="payment-methods-div">
+                <img src="Images/visa.png" alt="">
+                <img src="Images/masterCard.png" alt="">
+                <img src="Images/american.png" alt="">
+                <img src="Images/PayPal.png" alt="">
+            </div>
+            <div class="last-div">
+                <div class="content2-div">
+                    <h2>Stay Connented</h2>
+                    <hr id="hr1">
+                    <div class="c">
+                        <a href=""><img src="Images/facebook2.png" alt="">Facebook</a>
+                        <a href=""><img src="Images/instagram.png" alt="">Instagram</a>
+                        <a href=""><img src="Images/LinkedIn3.png" alt="">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="content3-div">
+                    <h2>About Us</h2>
+                    <hr id="hr2">
+                    <div class="d">
+                        <a href="">Company Info</a>
+                        <a href="">News</a>
+                        <a href="">Investitors</a>
+                        <a href="">Policies</a>
+                    </div>
+                </div>
+                <div class="content3-div">
+                    <h2>Community</h2>
+                    <hr id="hr3">
+                    <div class="d">
+                        <a href="">Announcements</a>
+                        <a href="">Discussion board</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
